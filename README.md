@@ -277,4 +277,6 @@ https://mtpy-v2.readthedocs.io/
 
 ## License
 
-Choose and add a repository license before public release. MIT is a common choice for a small reusable scientific Python utility, but the appropriate license is ultimately the author's decision.
+edi-to-modem-mtpy-v2 is licensed under the MIT license
+
+The license agreement is contained in the repository and should be kept together with the code.
