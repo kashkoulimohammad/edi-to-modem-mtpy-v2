@@ -253,40 +253,7 @@ Do not commit project-specific EDI files, DEM files, large raster files, ModEM o
 
 The repository `.gitignore` excludes common MT/ModEM data and generated output files.
 
-## 10. Create a GitHub repository from this local project
 
-Create a new empty repository on GitHub. It is simplest to leave **README**, **.gitignore**, and **license** unchecked during repository creation because these files are already present locally.
-
-Then from the local project directory:
-
-```bash
-git init
-git branch -M main
-git add .
-git commit -m "Initial release: EDI to ModEM MTpy-v2 workflow"
-git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
-git push -u origin main
-```
-
-If Git asks for your identity before the first commit:
-
-```bash
-git config --global user.name "Your Name"
-git config --global user.email "your_email@example.com"
-```
-
-For authentication, GitHub recommends using a supported authentication method such as GitHub CLI or SSH; a normal GitHub account password is not used for Git over HTTPS.
-
-## 11. Updating the repository later
-
-After changing the code:
-
-```bash
-git status
-git add .
-git commit -m "Describe the change"
-git push
-```
 
 ## Scientific / software notes
 
