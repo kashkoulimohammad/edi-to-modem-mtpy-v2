@@ -130,7 +130,7 @@ When using the Conda environment in this repository, prefer the Conda `tk` packa
 
 ## 5. Clone this repository
 
-Once the repository has been created on GitHub:
+
 
 ```bash
 
