@@ -133,8 +133,7 @@ When using the Conda environment in this repository, prefer the Conda `tk` packa
 Once the repository has been created on GitHub:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
-cd YOUR_REPOSITORY_NAME
+
 ```
 
 Activate the environment:
