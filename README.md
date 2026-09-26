@@ -247,13 +247,6 @@ figures/
 
 Additional topography and station-diagnostic files may be created when topography is enabled.
 
-## 9. Data handling
-
-Do not commit project-specific EDI files, DEM files, large raster files, ModEM outputs, or local run directories to GitHub unless you intentionally want to publish them.
-
-The repository `.gitignore` excludes common MT/ModEM data and generated output files.
-
-
 
 ## Scientific / software notes
 
