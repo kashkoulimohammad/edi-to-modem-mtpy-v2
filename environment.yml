@@ -1,0 +1,16 @@
+name: mtpy-v2-modem
+authors:
+  - Mohammad F. Kashkouli
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - mtpy-v2=2.1.4
+  - numpy
+  - pandas
+  - matplotlib
+  - scipy
+  - rasterio
+  - pyproj
+  - requests
+  - tk
